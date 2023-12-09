@@ -8,6 +8,6 @@ int main()
     printf("please input a number(°f)");
     cin>>f;
     float c=5*(f-32)/9;
-    cout<<c<<endl;
+    printf("%-100.5f",c);
     return 0;
 }

@@ -7,6 +7,6 @@ int main()
     float a,b,c,d,x;
     cin>>a>>b>>c>>d>>x;
     float f=a*pow(x,3)+b*pow(x,2)+c*x+d;
-    cout<<f<<endl;
+    printf("%-100.7f",f);
     return 0;
 }
