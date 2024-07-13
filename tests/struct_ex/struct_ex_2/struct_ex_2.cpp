@@ -11,7 +11,7 @@ int main()
     };
     scorelist a[3];
     int num[5]={22,222,11,54,24};
-    sort(num+1,num+5);
-    cout<<num[0];
+    sort(num,num+5);
+    cout<<num[0]<<num[1]<<num[2]<<num[3]<<num[4];
     return 0;
 }
